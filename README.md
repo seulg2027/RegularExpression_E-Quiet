@@ -86,19 +86,27 @@ CREATE TABLE User_Order (
 
 # 3. 💡 Idea (아이디어)
 
-1. 2020년에 거래한 횟수를 market_type에서 'KOS'단어를 포함하는 데이터만 출력
+문제를 누르면 문제 풀이 화면으로 이동합니다. (문제 풀기 전 클릭 금지)
 
-2. 상장일이 2021년인 데이터중에서 액면가가 2000원 이상인 것
+### 난이도 상
 
-3. 총 주식 발행주가 200,000 이상인 주식 중, 거래한 우선주 영문명 내림차순으로 출력하기
+1. [2020년에 거래한 횟수를 market_type에서 'KOS'단어를 포함하는 데이터만 출력](/Questions/1Q.sql)
 
-4. 보통주가 아닌 stock_type 고르기 (단, not 사용 불가)
+2. [비활성화 계정을 가진 서울시 사는 사람들 중, 15시에 거래한 User_order 테이블 내용만 출력하기](/Questions/2Q.sql)
 
-5. 비활성화 계정을 가진 서울시 사는 사람들 중, 15시에 거래한 User_order 테이블 내용만 출력하기
+### 난이도 중
 
-6. 숫자로만 이루어지지 않은 sh_code 찾기
+3. [User_Order 테이블에서 order_type이 'BUY'이고 order_date가 20년 12월 1일 이후이고 sh_code가 6자리 숫자이고 user_id가 1부터 5까지인 데이터를 조회](/Questions/3Q.sql)
 
-7. 특정 가격 범위와 정규식 조합 (주문 단가 x원 이상, sh_code가 ‘A’로 시작하는 경우 찾기)
+4. [보통주가 아닌 stock_type 고르기 (단, not 사용 불가)](/Questions/4Q.sql)
+
+5. [숫자로만 이루어지지 않은 sh_code 찾기](/Questions/5Q.sql)
+
+### 난이도 하
+
+6. [총 주식 발행주가 200,000 이상인 주식 중, 거래한 우선주 영문명 내림차순으로 출력하기](/Questions/6Q.sql)
+
+7. [order_price 90000원 이상, sh_code가 ‘0’로 시작하는 경우 찾기](/Questions/7Q.sql)
 
 <br/>
 
