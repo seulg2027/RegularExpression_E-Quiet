@@ -1,27 +1,22 @@
 # 목차
 1. [Project Overview (프로젝트 개요)](#1-project-overview-프로젝트-개요)
-2. [Team Members (팀원 및 팀 소개)](#2-팀원-및-팀-소개)
-3. [DB TABLE 상세](#3-db-table-상세)
-4. [아이디어](#4-아이디어)
+2. [DB TABLE 상세](#3-db-table-상세)
+3. [아이디어](#4-아이디어)
+4. [Team Members (팀원 및 팀 소개)](#2-팀원-및-팀-소개)
 
 # 1. Project Overview (프로젝트 개요)
 
-### 정규식(Regular Expression, RegEx) 학습을 위한 주식 거래 시스템 데이터베이스 설계
-
-<br/>
-<br/>
-
-# 2. 👫 Team Members (팀원 및 팀 소개)
-
-|<img src="https://avatars.githubusercontent.com/u/74342019?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/55776421?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127267532?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/71498489?v=4" width="150" height="150"/>|
-|:-:|:-:|:-:|:-:|
-|Ryan Na<br/>[@CooolRyan](https://github.com/CooolRyan)|SeulGi_LEE<br/>[@seulg2027](https://github.com/seulg2027)|[@HyeJinSeok](https://github.com/HyeJinSeok)|HanJH<br/>[@letsgojh0810](https://github.com/letsgojh0810)|
+> 💌 **목표** <br/>
+정규식(Regular Expression, RegEx) 학습을 위한 주식 거래 시스템 데이터베이스 설계하기<br/><br/>
+💡 **주제 및 개요** <br/>
+주제 : 주식 가격, 이용자, 거래 내역 간의 상호 관계 탐색 <br/>
+개요 : 일상에서 접할 수 있는 방대한 주식 데이터를 정규표현식을 활용하여, 트랜잭션을 통해 유의미한 정보를 추출하는 방법을 탐구합니다.
 
 
 <br/>
-<br/>
 
-# 3. DB TABLE 상세
+
+# 2. DB TABLE 상세
 ![다운로드1](https://github.com/user-attachments/assets/108da9f8-1e33-4844-a053-44aecf126cab)
 
 <details>
@@ -88,9 +83,8 @@ CREATE TABLE User_Order (
 
 
 <br/>
-<br/>
 
-# 4. 💡 Idea (아이디어)
+# 3. 💡 Idea (아이디어)
 
 1. 2020년에 거래한 횟수를 market_type에서 'KOS'단어를 포함하는 데이터만 출력
 
@@ -107,4 +101,12 @@ CREATE TABLE User_Order (
 7. 특정 가격 범위와 정규식 조합 (주문 단가 x원 이상, sh_code가 ‘A’로 시작하는 경우 찾기)
 
 <br/>
+
+# 4. 👫 Team Members (팀원 및 팀 소개)
+
+|<img src="https://avatars.githubusercontent.com/u/74342019?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/55776421?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127267532?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/71498489?v=4" width="150" height="150"/>|
+|:-:|:-:|:-:|:-:|
+|Ryan Na<br/>[@CooolRyan](https://github.com/CooolRyan)|SeulGi_LEE<br/>[@seulg2027](https://github.com/seulg2027)|[@HyeJinSeok](https://github.com/HyeJinSeok)|HanJH<br/>[@letsgojh0810](https://github.com/letsgojh0810)|
+
+
 <br/>
