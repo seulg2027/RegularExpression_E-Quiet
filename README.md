@@ -1,10 +1,15 @@
 # 목차
-1. [Project Overview (프로젝트 개요)](#1-project-overview-프로젝트-개요)
-2. [DB TABLE 상세](#3-db-table-상세)
-3. [아이디어](#4-아이디어)
-4. [Team Members (팀원 및 팀 소개)](#2-팀원-및-팀-소개)
 
-# 1. Project Overview (프로젝트 개요)
+1. [📢 Project Overview (프로젝트 개요)](#1-📢-project-overview-프로젝트-개요)
+
+2. [💗 DB TABLE 상세](#2-💗-db-table-상세)
+
+3. [💡 아이디어](#3-💡-아이디어)
+
+4. [👫 팀원 및 팀 소개](#4-👫-팀원-및-팀-소개)
+
+
+# 1. 📢 Project Overview (프로젝트 개요)
 
 > 💌 **목표** <br/>
 정규식(Regular Expression, RegEx) 학습을 위한 주식 거래 시스템 데이터베이스 설계하기<br/><br/>
@@ -16,7 +21,7 @@
 <br/>
 
 
-# 2. DB TABLE 상세
+# 2. 💗 DB TABLE 상세
 ![다운로드1](https://github.com/user-attachments/assets/108da9f8-1e33-4844-a053-44aecf126cab)
 
 <details>
@@ -84,7 +89,7 @@ CREATE TABLE User_Order (
 
 <br/>
 
-# 3. 💡 Idea (아이디어)
+# 3. 💡 아이디어
 
 문제를 누르면 문제 풀이 화면으로 이동합니다. (문제 풀기 전 클릭 금지)
 
@@ -110,7 +115,7 @@ CREATE TABLE User_Order (
 
 <br/>
 
-# 4. 👫 Team Members (팀원 및 팀 소개)
+# 4. 👫 팀원 및 팀 소개
 
 |<img src="https://avatars.githubusercontent.com/u/74342019?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/55776421?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127267532?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/71498489?v=4" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|
