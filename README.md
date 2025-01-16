@@ -1,6 +1,6 @@
 # 1. Project Overview (프로젝트 개요)
 
-## 정규식(Regular Expression, RegEx) 학습을 위한 주식 거래 시스템 데이터베이스 설계
+### 정규식(Regular Expression, RegEx) 학습을 위한 주식 거래 시스템 데이터베이스 설계
 
 <br/>
 <br/>
