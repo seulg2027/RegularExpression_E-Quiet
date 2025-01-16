@@ -3,7 +3,6 @@
 2. [Team Members (팀원 및 팀 소개)](#2-팀원-및-팀-소개)
 3. [DB TABLE 상세](#3-db-table-상세)
 4. [아이디어](#4-아이디어)
-5. [Technology Stack (기술 스택)](#5-technology-stack-기술-스택)
 
 # 1. Project Overview (프로젝트 개요)
 
@@ -21,14 +20,6 @@
 
 <br/>
 <br/>
-
-# 3. Technology Stack (기술 스택)
-## 5.1 Language
-|  |  |
-|-----------------|-----------------|
-| HTML5    |<img src="https://github.com/user-attachments/assets/2e122e74-a28b-4ce7-aff6-382959216d31" alt="HTML5" width="100">| 
-| CSS3    |   <img src="https://github.com/user-attachments/assets/c531b03d-55a3-40bf-9195-9ff8c4688f13" alt="CSS3" width="100">|
-| Javascript    |  <img src="https://github.com/user-attachments/assets/4a7d7074-8c71-48b4-8652-7431477669d1" alt="Javascript" width="100"> | 
 
 # 3. DB TABLE 상세
 ![다운로드1](https://github.com/user-attachments/assets/108da9f8-1e33-4844-a053-44aecf126cab)
@@ -116,14 +107,4 @@ CREATE TABLE User_Order (
 7. 특정 가격 범위와 정규식 조합 (주문 단가 x원 이상, sh_code가 ‘A’로 시작하는 경우 찾기)
 
 <br/>
-<br/>
-
-# 5. Technology Stack (기술 스택)
-## 5.1 Language
-|  |  |
-|-----------------|-----------------|
-| HTML5    |<img src="https://github.com/user-attachments/assets/2e122e74-a28b-4ce7-aff6-382959216d31" alt="HTML5" width="100">| 
-| CSS3    |   <img src="https://github.com/user-attachments/assets/c531b03d-55a3-40bf-9195-9ff8c4688f13" alt="CSS3" width="100">|
-| Javascript    |  <img src="https://github.com/user-attachments/assets/4a7d7074-8c71-48b4-8652-7431477669d1" alt="Javascript" width="100"> | 
-
 <br/>
