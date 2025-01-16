@@ -17,6 +17,9 @@
 
 
 # 3. Key Features (주요 기능)
+![사진1](https://github.com/user-attachments/assets/c11418c7-5974-4d7c-b45c-da2eeced44ff)
+
+<br/>
 - **회원가입**:
   - 회원가입 시 DB에 유저정보가 등록됩니다.
 
