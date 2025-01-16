@@ -1,3 +1,12 @@
+# 👫 팀원 및 팀 소개
+
+|<img src="https://avatars.githubusercontent.com/u/74342019?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/55776421?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127267532?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/71498489?v=4" width="150" height="150"/>|
+|:-:|:-:|:-:|:-:|
+|Ryan Na<br/>[@CooolRyan](https://github.com/CooolRyan)|SeulGi_LEE<br/>[@seulg2027](https://github.com/seulg2027)|[@HyeJinSeok](https://github.com/HyeJinSeok)|HanJH<br/>[@letsgojh0810](https://github.com/letsgojh0810)|
+
+
+<br/>
+
 # 목차
 
 1. [📢 Project Overview (프로젝트 개요)](#1-📢-project-overview-프로젝트-개요)
@@ -6,8 +15,11 @@
 
 3. [💡 아이디어](#3-💡-아이디어)
 
-4. [👫 팀원 및 팀 소개](#4-👫-팀원-및-팀-소개)
+4. [🔫 트러블 슈팅](#4-🔫-트러블-슈팅)
 
+5. [💬 회고](#5-💬-회고)
+
+<br/>
 
 # 1. 📢 Project Overview (프로젝트 개요)
 
@@ -115,17 +127,48 @@ CREATE TABLE User_Order (
 
 <br/>
 
-# 4. 👫 팀원 및 팀 소개
 
-|<img src="https://avatars.githubusercontent.com/u/74342019?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/55776421?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127267532?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/71498489?v=4" width="150" height="150"/>|
-|:-:|:-:|:-:|:-:|
-|Ryan Na<br/>[@CooolRyan](https://github.com/CooolRyan)|SeulGi_LEE<br/>[@seulg2027](https://github.com/seulg2027)|[@HyeJinSeok](https://github.com/HyeJinSeok)|HanJH<br/>[@letsgojh0810](https://github.com/letsgojh0810)|
+# 4. 🔫 트러블 슈팅
 
+### 1) `DB 원격 접속을 위한 ping 체크`
+
+![alt text](/images/image-5.png)
+
+여러 대의 로컬 PC에서 원격 DB IP로 ping을 찍어서 IP 접속 체크 -> ☑️
+
+### 2) `3306 포트를 모든 IP에 대해서 개방`
+
+![alt text](/images/image-4.png)
+
+* 과정 : Linux 서버 방화벽이 3306포트에 대해서 정책 적용 여부 확인
+
+![alt text](/images/image-3.png)
+
+```bash
+sudo ufw status
+```
+
+![alt text](/images/image.png)
+
+* 해결 : 포트 포워딩 규칙을 설정하여 원격 호스트에 직접 연결할 수 있도록 구성 -> ☑️
+
+
+### 3) `Database Privilege 미부여로 인한 접근 권한 문제`
+
+포트 포워딩 후에도, 연결이 원활하게 이루어지지 않아서 권한 확인 후 데이터베이스에 권한 부여
+
+![alt text](/images/image-6.png)
+
+* 해결 : 데이터베이스 서버 접근권한 부여해서 해결 -> ☑️
+
+```sql
+GRANT ALL PRIVILEGES ON [database_name].* TO '[username]'@'[host]' IDENTIFIED BY '[password]';
+```
 
 <br/>
 
 
-# 5. 회고
+# 5. 💬 회고
 
 
 * 나원호 : 작년 코딩테스트에서 이메일 관련 정규식 문제를 풀었던 경험이 있습니다. 당시 정규식에 대한 아이디어를 생각하지 못해 LIKE로 풀려고 했던 기억이 있는데 특수한 경우지만 가시성 좋은 방법으로 필터링이 가능한 표현식을 좀 더 머리에 남을 수 있게 공부해 좋은 경험이었습니다.
