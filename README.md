@@ -22,6 +22,13 @@
 <br/>
 <br/>
 
+# 3. Technology Stack (기술 스택)
+## 5.1 Language
+|  |  |
+|-----------------|-----------------|
+| HTML5    |<img src="https://github.com/user-attachments/assets/2e122e74-a28b-4ce7-aff6-382959216d31" alt="HTML5" width="100">| 
+| CSS3    |   <img src="https://github.com/user-attachments/assets/c531b03d-55a3-40bf-9195-9ff8c4688f13" alt="CSS3" width="100">|
+| Javascript    |  <img src="https://github.com/user-attachments/assets/4a7d7074-8c71-48b4-8652-7431477669d1" alt="Javascript" width="100"> | 
 
 # 3. DB TABLE 상세
 ![다운로드1](https://github.com/user-attachments/assets/108da9f8-1e33-4844-a053-44aecf126cab)
