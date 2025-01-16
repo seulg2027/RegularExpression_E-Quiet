@@ -6,12 +6,11 @@
 <br/>
 
 # 2. Team Members (팀원 및 팀 소개)
-## Team
+
 |<img src="https://avatars.githubusercontent.com/u/74342019?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/55776421?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127267532?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/71498489?v=4" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|
 |Ryan Na<br/>[@CooolRyan](https://github.com/CooolRyan)|SeulGi_LEE<br/>[@seulg2027](https://github.com/seulg2027)|[@HyeJinSeok](https://github.com/HyeJinSeok)|HanJH<br/>[@letsgojh0810](https://github.com/letsgojh0810)|
 
-<sub>[Table made by TIT](https://team-info-table.seondal.kr/)</sub>
 
 <br/>
 <br/>
