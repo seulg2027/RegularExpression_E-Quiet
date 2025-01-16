@@ -17,7 +17,7 @@
 
 
 # 3. Key Features (주요 기능)
-![사진1](https://github.com/user-attachments/assets/c11418c7-5974-4d7c-b45c-da2eeced44ff)
+![다운로드1](https://github.com/user-attachments/assets/108da9f8-1e33-4844-a053-44aecf126cab)
 
 <br/>
 - **회원가입**:
