@@ -133,6 +133,8 @@ CREATE TABLE User_Order (
 
 # 4. 🔫 트러블 슈팅
 
+## 원격 호스트 접속 문제
+
 ### 1) `DB 원격 접속을 위한 ping 체크`
 
 ![alt text](/images/image-5.png)
@@ -167,6 +169,38 @@ sudo ufw status
 ```sql
 GRANT ALL PRIVILEGES ON [database_name].* TO '[username]'@'[host]' IDENTIFIED BY '[password]';
 ```
+<br>
+
+## DBeaver에 CSV 가져올 때 인코딩 및 테이블 설정 문제
+
+### 1) `인코딩 문제`
+
+![encoding_error](image-3.png)
+
+CSV에서 가져오는 과정에서 Windows의  txt 기본 인코딩이 ANSI로 되어 있어서 text가 깨지는 현상이 발생
+
+| **과정**       |
+|------------------|
+| <img src="image-4.png" width="500"> |
+| <img src="image-1.png" width="500">  |
+| <img src="image-2.png" width="500"> |
+
+
+* 해결 : 인코딩을 UTF-8로 맞춰주기 위해 CSV 파일을 메모장으로 열어서 인코딩 형식을 UTF-8로 변경한 뒤 저장
+
+### 2) `Default 컬럼의 크기 설정 문제`
+
+인코딩 형식은 맞추었으나 데이터가 원활히 들어가지 않아서 확인을 해보니 설정해주었던 최대 크기가 데이터 크기보다 작아서 들어가지 않는 문제 발생
+
+| **해결 1**                             | **해결 2**                             |
+|-----------------------------------------|-----------------------------------------|
+| <img src="image-5.png" width="450">     | <img src="image-6.png" width="450">     |
+
+
+* 해결 :
+ 1. `Importer Setting` 에서 `Default Column Length`를 넉넉히 잡아주고 다시 import
+ 2. 상장 주식수 Column을 Mapping하는 과정에서도 `INTEGER`로 되어있어 크기가 부족하여 데이터가 정상적으로 들어가지 않는 문제가 발생하여  `BIGINT`로 변경하여 적용 → 해결 완료
+
 
 <br/>
 
