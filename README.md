@@ -138,7 +138,7 @@ CREATE TABLE User_Order (
 
 ### 2) `3306 포트를 모든 IP에 대해서 개방`
 
-![alt text](/images/image-4.png)
+![alt text](/images/image-2.png)
 
 * 과정 : Linux 서버 방화벽이 3306포트에 대해서 정책 적용 여부 확인
 
