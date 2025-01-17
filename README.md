@@ -137,23 +137,20 @@ CREATE TABLE User_Order (
 
 ### 1) `DB 원격 접속을 위한 ping 체크`
 
-![alt text](/images/image-5.png)
+<img src="image-7.png" width="450" />
 
 여러 대의 로컬 PC에서 원격 DB IP로 ping을 찍어서 IP 접속 체크 -> ☑️
 
 ### 2) `3306 포트를 모든 IP에 대해서 개방`
 
-![alt text](/images/image-2.png)
+<img src="image-8.png" width="450" />
 
 * 과정 : Linux 서버 방화벽이 3306포트에 대해서 정책 적용 여부 확인
 
-![alt text](/images/image-3.png)
+| **과정**                             | **해결**                             |
+|-----------------------------------------|-----------------------------------------|
+| <img src="image-11.png" width="300" />     | <img src="image-12.png" width="450" />     |
 
-```bash
-sudo ufw status
-```
-
-![alt text](/images/image.png)
 
 * 해결 : 포트 포워딩 규칙을 설정하여 원격 호스트에 직접 연결할 수 있도록 구성 -> ☑️
 
@@ -162,7 +159,7 @@ sudo ufw status
 
 포트 포워딩 후에도, 연결이 원활하게 이루어지지 않아서 권한 확인 후 데이터베이스에 권한 부여
 
-![alt text](/images/image-6.png)
+<img src="image-9.png" width="450" />
 
 * 해결 : 데이터베이스 서버 접근권한 부여해서 해결 -> ☑️
 
@@ -175,7 +172,7 @@ GRANT ALL PRIVILEGES ON [database_name].* TO '[username]'@'[host]' IDENTIFIED BY
 
 ### 1) `인코딩 문제`
 
-![encoding_error](image-3.png)
+<img src="image-3.png" width="450" />
 
 CSV에서 가져오는 과정에서 Windows의  txt 기본 인코딩이 ANSI로 되어 있어서 text가 깨지는 현상이 발생
 
