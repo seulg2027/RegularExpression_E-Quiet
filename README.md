@@ -137,19 +137,19 @@ CREATE TABLE User_Order (
 
 ### 1) `DB 원격 접속을 위한 ping 체크`
 
-<img src="image-7.png" width="450" />
+<img src="./img/image-7.png" width="450" />
 
 여러 대의 로컬 PC에서 원격 DB IP로 ping을 찍어서 IP 접속 체크 -> ☑️
 
 ### 2) `3306 포트를 모든 IP에 대해서 개방`
 
-<img src="image-8.png" width="450" />
+<img src="./img/image-8.png" width="450" />
 
 * 과정 : Linux 서버 방화벽이 3306포트에 대해서 정책 적용 여부 확인
 
 | **과정**                             | **해결**                             |
 |-----------------------------------------|-----------------------------------------|
-| <img src="image-11.png" width="300" />     | <img src="image-12.png" width="450" />     |
+| <img src="./img/image-11.png" width="300" />     | <img src="./img/image-12.png" width="450" />     |
 
 
 * 해결 : 포트 포워딩 규칙을 설정하여 원격 호스트에 직접 연결할 수 있도록 구성 -> ☑️
@@ -172,15 +172,15 @@ GRANT ALL PRIVILEGES ON [database_name].* TO '[username]'@'[host]' IDENTIFIED BY
 
 ### 1) `인코딩 문제`
 
-<img src="image-3.png" width="450" />
+<img src="./img/image-3.png" width="450" />
 
 CSV에서 가져오는 과정에서 Windows의  txt 기본 인코딩이 ANSI로 되어 있어서 text가 깨지는 현상이 발생
 
 | **과정**       |
 |------------------|
-| <img src="image-4.png" width="500"> |
-| <img src="image-1.png" width="500">  |
-| <img src="image-2.png" width="500"> |
+| <img src="./img/image-4.png" width="500"> |
+| <img src="./img/image-1.png" width="500">  |
+| <img src="./img/image-2.png" width="500"> |
 
 
 * 해결 : 인코딩을 UTF-8로 맞춰주기 위해 CSV 파일을 메모장으로 열어서 인코딩 형식을 UTF-8로 변경한 뒤 저장
@@ -191,7 +191,7 @@ CSV에서 가져오는 과정에서 Windows의  txt 기본 인코딩이 ANSI로 
 
 | **해결 1**                             | **해결 2**                             |
 |-----------------------------------------|-----------------------------------------|
-| <img src="image-5.png" width="450">     | <img src="image-6.png" width="450">     |
+| <img src="./img/image-5.png" width="450">     | <img src="./img/image-6.png" width="450">     |
 
 
 * 해결 :
