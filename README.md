@@ -159,7 +159,7 @@ CREATE TABLE User_Order (
 
 포트 포워딩 후에도, 연결이 원활하게 이루어지지 않아서 권한 확인 후 데이터베이스에 권한 부여
 
-<img src="image-9.png" width="450" />
+<img src="./img/image-9.png" width="450" />
 
 * 해결 : 데이터베이스 서버 접근권한 부여해서 해결 -> ☑️
 
